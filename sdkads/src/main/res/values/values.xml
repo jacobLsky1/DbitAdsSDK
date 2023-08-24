@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="applovin_button_color">#4385F7</color>
+    <color name="applovin_dark_primary_text_color">#FFFFFF</color>
+    <color name="applovin_dark_secondary_text_color">#B8BCBE</color>
+    <color name="btn_ad_button">#1A2196F3</color>
+    <color name="color_native_background_dark">#101D24</color>
+    <color name="color_native_background_light">#FFFFFF</color>
+    <color name="gnt_ad_green">#3A6728</color>
+    <color name="gnt_ad_grey">#939393</color>
+    <color name="gnt_ad_yellow">#FBB828</color>
+    <color name="gnt_black">#000000</color>
+    <color name="gnt_blue">#2196F3</color>
+    <color name="gnt_gray">#808080</color>
+    <color name="gnt_green">#00FF00</color>
+    <color name="gnt_outline">#E0E0E0</color>
+    <color name="gnt_red">#FF0000</color>
+    <color name="gnt_test_background_color">#00F4F4F4</color>
+    <color name="gnt_test_background_color_2">#00A3A3A3</color>
+    <color name="gnt_white">#FFFFFF</color>
+    <dimen name="applovin_banner_height">50dp</dimen>
+    <dimen name="corner_radius">8dp</dimen>
+    <dimen name="gnt_ad_indicator_bar_height">30dp</dimen>
+    <dimen name="gnt_ad_indicator_bottom_margin">10dp</dimen>
+    <dimen name="gnt_ad_indicator_height">21dp</dimen>
+    <dimen name="gnt_ad_indicator_text_size">12sp</dimen>
+    <dimen name="gnt_ad_indicator_top_margin">0dp</dimen>
+    <dimen name="gnt_ad_indicator_width">28dp</dimen>
+    <dimen name="gnt_default_margin">10dp</dimen>
+    <item format="float" name="gnt_media_view_weight" type="dimen">1.0</item>
+    <dimen name="gnt_medium_cta_button_height">50dp</dimen>
+    <item format="float" name="gnt_medium_template_bottom_weight" type="dimen">0.4</item>
+    <item format="float" name="gnt_medium_template_top_weight" type="dimen">0.2</item>
+    <dimen name="gnt_native_icon_size">48dp</dimen>
+    <dimen name="gnt_no_margin">0dp</dimen>
+    <dimen name="gnt_no_size">0dp</dimen>
+    <dimen name="gnt_small_cta_button_height">30dp</dimen>
+    <item format="float" name="gnt_text_row_weight" type="dimen">0.25</item>
+    <dimen name="gnt_text_size_large">15sp</dimen>
+    <dimen name="gnt_text_size_small">12sp</dimen>
+    <dimen name="item_post_padding_medium">14dp</dimen>
+    <dimen name="item_post_padding_small">7dp</dimen>
+    <dimen name="post_primary_font_size">16sp</dimen>
+    <dimen name="post_secondary_font_size">12sp</dimen>
+    <dimen name="post_thumbnail_height">108dp</dimen>
+    <dimen name="post_thumbnail_width">108dp</dimen>
+    <dimen name="radio_padding_medium">10dp</dimen>
+    <dimen name="radio_padding_small">5dp</dimen>
+    <dimen name="radio_primary_font_size">15sp</dimen>
+    <dimen name="radio_secondary_font_size">13sp</dimen>
+    <dimen name="radio_thumbnail_height">60dp</dimen>
+    <dimen name="radio_thumbnail_width">60dp</dimen>
+    <dimen name="video_primary_font_size">16sp</dimen>
+    <dimen name="video_secondary_font_size">13sp</dimen>
+    <dimen name="video_thumbnail_height">96dp</dimen>
+    <dimen name="video_thumbnail_width">128dp</dimen>
+    <string name="img_content_description">TODO</string>
+    <string name="txt_ad">Ad</string>
+    <string name="txt_advertiser">Advertisement</string>
+    <string name="unity_ads_announcement"><![CDATA[
+        <p>Following up on the new Google Play rules regarding the error message received due to the Non Compliant SDK from Unity Ads SDK issue, we have temporarily removed the integration of ads using Unity Ads in the Multiple Ad Networks SDK for an indefinite period of time until this issue is resolved by the Official Unity Technologies Developer Team.</p>
+        <p>Please change your ad type in the admin panel or json remote configuration with another ad network such as AdMob, Start.io, AppLovin Max, AppLovin Discovery, IronSource or Audience Network Bidding.</p>
+        <p>Note that this prompt will only be shown in your development builds. Live apps will not be affected and Unity Ads will not shows</p>
+    ]]>
+    </string>
+    <declare-styleable name="NativeAdView">
+        <attr format="reference" name="adMobNativeButton"/>
+        <attr format="reference" name="startappNativeButton"/>
+    </declare-styleable>
+    <declare-styleable name="TemplateView">
+        <attr format="reference" name="gnt_template_type"/>
+    </declare-styleable>
+</resources>

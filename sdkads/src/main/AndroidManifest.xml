@@ -3,7 +3,7 @@
     package="com.dbit.ads.sdk">
 
     <uses-sdk
-        android:minSdkVersion="21"
+        android:minSdkVersion="24"
         android:targetSdkVersion="33" />
 
     <uses-permission android:name="android.permission.INTERNET" />
